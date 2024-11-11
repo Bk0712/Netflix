@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.img {
+  width: 100px;
+  height: auto;
+}
+
+
+.box2 {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+  text-align: right;
+}
+
+#mylang,
+.mycountries {
+  background-color: #333;
+  color: white;
+  font-weight: 200;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.mmain {
+  color: white;
+  background-color: #e50914; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.main {
+  color: white;
+  height: 300px;
+  width: 85%;
+  max: width 850px;;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/61b94313-a53b-4a73-b973-7632aafc9d8f/web_tall_panel/IN-en-20241104-TRIFECTA-perspective_5e478a9d-0baf-4a93-8987-7a8ebf6f7fe8_large.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+
+.main1 {
+  color: grey;
+  margin-top: 10px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  width: 250px;
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
+}
+
+.get-started-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e50914; 
+  border: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+
+h3 {
+  color: white;
+}
+
+.mycountries {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+}
+
+.mycountries::after {
+  content: "▼";
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+}
+
+
+.main-content {
+  color: white;
+  height: 605px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/61b94313-a53b-4a73-b973-7632aafc9d8f/web_tall_panel/IN-en-20241104-TRIFECTA-perspective_5e478a9d-0baf-4a93-8987-7a8ebf6f7fe8_large.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+
+
+.main-content .subheading {
+  color: grey;
+  margin-top: 10px;
+}
+
+
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  outline: none;
+  width: 250px; 
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
+  margin: auto; 
+}
+
+
+.get-started {
+  margin-top: 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+h3 {
+  color: white;
+}
+
+
+.my-countries {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+}
+
+.my-countries::after {
+  content: "▼";
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.box1 {
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYSwMeiqSUvCiQWcREum_WwZR135TlUMA5Acp8W5SSHIk6Xeyu5Uj5BhWOA2bpOM33TATsl39Em9ERUrmGRYFXb98qNDuEbOx8Ia.webp?r=baa");
+}
+
+
+.box2 {
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSJTwCRepT3hij8CAbXVf-kGcmJ1rIVtD7wT2AmGY4nhIP6GyADv7jWfWR1B1MwfeAu3RuNdlyQNmYx50sACOm24YSD_biqKtHhJ.webp?r=680")}
+
+
+.box3 {
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcOKVyDpoMqPMP8MRuASK8X0SenR-HIJphcwID5xC0PuCdn3p618nTL6h1n78t_ZpIA1aICPE6_D6_9nRHPnvAJUNf3aPy-W5hxfvjJpkqTovjtMJbt-2PSq0JjxnS9pS5xPJQ.webp?r=cf5");
+}
+
+
+.box4 {
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWufSYoSh-ruSGRpzD_7k6m6nRPshhSVJsXf4vbq85zHVXCcIoAkKQZar1cVG79qU-aRQsBBdw37WOofOVDuLolhtQMGb6kklOlk.webp?r=f45");
+}
+
+
+.box5 {
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbZsebsdbWfi9OkE2tUBiTTxkVY4pYrJHB-76rWjQEWEmQia1M6Q6zG-dog2eRhwVTCNs_l5qPajcxwA6r7ojXmw4Q6NxCD72ZqkUjIW11OajB0TRywS9Cb5MJ5bJfiMYkI8rg.webp?r=ffd");
+}
+
+.box6{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUVkSQ5zyF-_t2af0a_g2RgmQWl7Qoyw051MHTEECmyBOd_i1_O41uZq0VWvZDi2LuPvtXRDX7KtyzrKCC9RQvIZfB2lP34cOiRaYc1e98uouwuTmeTthgvAZKGEzx49eiOQ0g.webp?r=008");
+}
+
+.BOX {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.boot1{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRY13rE6hFZeP981fDAgmKTcN4P0SzIOzCS8PMVNcm1A41O8G1dqia0SGeBUzBvFiH3JX_ugRAq5nbRkhsb4FpQy6PLwZyRw5cTO7EjbrO8YX7-Pk2joGpoaBQYi6RwFo4p11Q.webp?r=3f5");
+}
+
+.boot2{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcBfQ5g7suBqQ1OfrnFBRfK_3cXnGqyVcpAOUM28hHX0mWh8kzzP0kCmrNZFszZ-GukuXVJiK8tGbw6f5AM4zaYYXYvmRk6hXQZrXxswq7c18th-3TvNDTSkG3_EKi-yaZWfQg.webp?r=a0c");
+}
+
+.boot3{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcthhZIohsu0feEvCd4hCmcRUJ7wP3fSN1eBFLvYLO1E56hGa9dTJus3OZ8lyDSQxvaQNRgPWdZl58_S2BFIvPOEdJgKfhDatMWH8zOJRFTaukJ5FJRa1HutRInOIPCr6wsjLg.webp?r=e07");
+}
+
+.boot4{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABW-d7ZXaidP5ykOiy-MSmgy-yVF1C4_68_poOkx-ZU04wLVevpoqkf3uEvHCsGZY_XipOSlNASQ0TfqWvjspCLE5-2AIVHHQY29oJC62Yd8PhSLBaZqzreyhaAmAM6Z7YQBBMg.webp?r=e79");
+}
+
+.boot5{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABROJMgHuT0kF6UHU-1PgR5T6_MyUWbqAN8a70TMKBaTV6TDEif7AKv6BARn67_U4ZlVx31vWny9ljXaa74-HLXs3UD35gcXbnUcT56Bk9uqrh9jsBYaP-FGfSV8COqgJIyrNEg.webp?r=112");
+}
+
+.boot6{
+  background-image: url("https://occ-0-5005-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdbKfm_grERo569cMP2buiT-mBuh9jLLONiiVaYHGR6E6BeZyBjRUdPEDvy8j8ZcPU_yVwBM6pL1tNBFDyjoR93O6yfBk0pUGn8swBrdsmbLVKM3SfA6q_onC0QRpTVvFsDa3Q.webp?r=e73");
+}
+
+.reasons-container {
+  text-align: center;
+}
+
+.reasons-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.reasons-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reason-card {
+  background-color: #1c1c1c;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.reason-card p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.reason-icon {
+  font-size: 2em;
+  margin-top: 15px;
+}
+
+
+
+
+.faq-container {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+ justify-content: space-between;
+ 
+  }
+
+.faq-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  }
+
+.faq-item:hover {
+  background-color: #333;
+}
+
+.faq-icon {
+  font-size: 1.2em;
+}
+
+.get-started-button {
+  margin-top: 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.get-started-button:hover {
+  background-color: #b00710;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  text-align: center;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.language select {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.language select:hover {
+  cursor: pointer;
+}
+
+.language .flag {
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+}
+
+.footer p {
+  margin: 0;
+  color: #999;
+}
+
+.footer .footer-top {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer .footer-top a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.footer .footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer .footer-links a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer .language-selector {
+  margin-top: 20px;
+}
+
+.footer .language-selector select {
+  background-color: #333;
+  color: #999;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.footer .footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
